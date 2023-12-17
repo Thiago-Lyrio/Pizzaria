@@ -1,0 +1,133 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap');
+
+*{
+    margin: 0;
+    font-family: 'Titillium Web', sans-serif;
+    
+}
+body{
+    background-image: url("/imagens/FUNDO\ GERAL\ LOGIN.jpg");
+    height: 100%;
+}
+#header{
+    width: 100%;
+    margin: 0;
+    position:fixed;
+    z-index: 100;
+    
+
+}
+.conteudo_header{
+    background-color: rgb(8, 109, 8);
+    
+    justify-content: space-between;
+    align-items: center;  
+}
+.logo{
+    gap: 10px;
+    cursor: pointer;
+    color: white;
+    letter-spacing: 4px;
+    margin-top: 10px;
+    
+    
+}
+.img_logo{
+    border: 2px solid red; 
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    
+    
+}
+.conteudo_header, .menu{
+    display: flex;
+    flex-direction: row;
+    padding-right: 25px;
+    padding-left: 25px;
+    
+}
+
+.menu, .cardapio{
+    list-style: none;
+    padding: 0; 
+    gap: 100px;
+    overflow: hidden;
+    transition: all 0.35s;
+    
+
+}
+.cardapio{
+    font-weight: bold;
+    letter-spacing: 4px;
+}
+
+.conteudo_header, .menu, a, p{
+    text-decoration: none;
+    color: white;
+    font-size: 15pt;
+    align-items: baseline;
+    cursor: pointer;
+    
+}
+.btn_menu{
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 36px;
+    position: absolute;
+    right: 20px;
+    padding-top: 20px;
+    display: none;
+}
+li:hover, h1:hover, .btn_menu:hover{
+    opacity: 0.7;
+    background-color: rgba(18, 170, 18, 0.26);
+    
+}
+   
+.btn_menu:focus ~ .menu{
+    height: 240px;
+}
+@media (max-width:999px){
+    .conteudo_header, .menu{
+        flex-direction:column;
+       
+
+    }
+    .logo{
+        margin-top: 10px;
+        margin-left: 25px;
+    }
+    .menu{
+        text-align: center;
+        margin: 0;
+        height: 0;
+        font-size: 12pt;
+        gap: 10px;
+
+    }
+    .conteudo_header{
+        padding: 0;
+        align-items: flex-start;
+    }
+    .btn_menu{
+        display: flex;
+
+    }
+    li, .menu{
+        width: 100%;
+    }
+}
+.corpo{
+    padding-left: 10%;
+    padding-right: 10%;
+    align-items: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    
+}

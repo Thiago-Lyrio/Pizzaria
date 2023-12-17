@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2? family= Saira+Extra+Condensed:wght@300 & display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+   
+    color: #ffffff;
+
+}
+body{
+    width: 100%;
+    height: 905px;
+    padding-top: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
+    background-image: url("/imagens/FUNDO\ GERAL\ LOGIN.jpg");
+
+}
+.lado_direito{
+    
+    display: flex;
+    
+    justify-content:center;
+    align-items: flex-end;
+
+}
+.lado_direito img{
+    width: 74%;
+    height: 600px;
+    border:5px solid #fa0606;
+    border-left: none;
+}
+
+.lado_esquerdo{ 
+    background-color: rgb(8, 109, 8);
+    padding-right: 5px;
+    height: 600px;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    border:5px solid #fa0606;
+    border-right: none;
+}
+.header img{
+    margin-left: 100px;
+    width: 75px;
+    height: 75px;
+    border:2px solid #fa0606;
+    border-radius: 50px;
+}
+.header a{
+    text-decoration: none;
+    
+    
+}
+.header a h1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+    font-size: 20pt;
+    color: red;
+    
+}
+
+.lado_esquerdo .header{
+    margin-left: 20px;
+    margin-top: 20px;
+    
+}
+.usuario form{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+form input{
+    border: none;
+    background-color: #ffffff;
+    width: 300px;
+    height: 25px;
+    border-radius: 10px;
+    padding-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: black;
+    font-size: 12pt;
+    font-weight: bold;
+    font-family: 'Saira Extra Condensed', sans-serif;
+}
+
+.usuario .btn1{
+    border: none;
+    background-color: red;
+   
+    cursor: pointer;
+    margin-left: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 8px;
+    
+}
+.usuario .btn1 input{
+    border: none;
+    background-color: red;
+    color: rgb(36, 30, 30);
+    font-weight: 900;
+    font-size: 10pt;
+    align-items: center;
+    cursor: pointer;
+    width: 90px;
+   
+    
+}
+.usuario .btn2 input{
+    border: none;
+    background-color: red;
+    color: #ffffff;
+    font-weight: 600;
+    align-items: center;
+    cursor: pointer;
+    width: 130px;
+    font-size: 8pt;
+    padding: 0;  
+    
+}
+.usuario .btn2{
+    border: none;
+    background-color: red;
+    color: #ffffff;
+    cursor: pointer;
+    width: 150px;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    border-radius: 8px;
+
+}
+.usuario .btn3{
+    border: none;
+    background-color: red;
+    color: #ffffff;
+    cursor: pointer;
+    width: 90px;
+    padding: 05px;
+    font-size: 9pt;
+    cursor: pointer;
+    margin-left: 8px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+.usuario a{
+    margin-left: 15px;
+}
+
+.row {
+    background-color: rgb(8, 109, 8);
+    border: 5px solid red;
+    padding: 15px;
+    width: 750px;
+    
+}
+.modal-header{
+    background-color: rgb(8, 109, 8);
+    width: 800px;
+
+}
+.modal-content{
+   
+    background-color: rgb(8, 109, 8);
+    width: 800px;
+}
